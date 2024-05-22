@@ -1,0 +1,16 @@
+body
+.middle {
+    vertical-align: middle;
+    text-align:center;
+    left:10%;
+    position:relative; /*makes left effective*/
+    display:table-cell;
+}
+.circle 
+{
+    width : 400px;
+    height: 400px;
+    background-color:#0000FF;
+    color:#FFFF00;
+    border-radius: 50%;
+}
