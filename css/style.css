@@ -43,7 +43,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#FFFF00;
+    background-color:#FFFFFF;
+    color:#0000FF;
     overflow: hidden;
 }
 .up_left_circle {
@@ -55,7 +56,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#FFFF00;
+    background-color:#FFFFFF;
+    color:#0000FF;
     transform : translate(-150px,-260px);
 }
 .up_right_circle {
@@ -67,7 +69,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#FFFF00;
+    background-color:#FFFFFF;
+    color:#0000FF;
     transform : translate(150px,-260px);
 }
 .down_right_circle {
@@ -79,7 +82,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#FFFF00;
+    background-color:#FFFFFF;
+    color:#0000FF;
     transform : translate(150px,260px);
 }
 .down_left_circle {
@@ -91,7 +95,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#FFFF00;
+    background-color:#FFFFFF;
+    color:#0000FF;
     transform : translate(-150px,260px);
 }
 .left_circle {
@@ -103,7 +108,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#FFFF00;
+    background-color:#FFFFFF;
+    color:#0000FF;
     transform : translate(-300px,0px);
 }
 .right_circle {
@@ -115,7 +121,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#FFFF00;
+    background-color:#FFFFFF;
+    color:#0000FF;
     transform : translate(300px,0px);
 }
 .outer_circle{
@@ -127,6 +134,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#0000FF;
+    background-color:#0099FF;
 }
 
