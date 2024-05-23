@@ -26,8 +26,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#00FFFF;
+    background-color:#FFFFFF;
+    color:#0000FF;
     top : 0;
+    font-family : Impact;
+    font-size : x-large;
     transform : translate(0px,20px);
 
 }
@@ -41,10 +44,8 @@ body{
     justify-content: center;
     align-items: center;
     background-color:#FFFF00;
+    overflow: hidden;
 }
-button:hover {
-    transform: scale(1.2);
-  }
 .up_left_circle {
     height: 250px;
     width: 250px;
