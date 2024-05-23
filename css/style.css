@@ -12,27 +12,26 @@ body{
 
 .container {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.title {
-    height: 50px;
+.center_title {
+    height: 60px;
     width: 200px;
-    z-index: 2;
+    z-index: 3;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#FFFFFF;
+    background-color:#00FFFF;
     color:#0000FF;
-    top : 0;
     font-family : Impact;
     font-size : x-large;
-    transform : translate(0px,20px);
-
+    transform : translate(0px,-180px);
+    border-radius: 50%;
 }
 .center_circle {
     height: 250px;
@@ -46,6 +45,22 @@ body{
     background-color:#FFFFFF;
     color:#0000FF;
     overflow: hidden;
+    
+}
+.up_left_title {
+    height: 200px;
+    width: 300px;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFFFFF;
+    color:#000000;
+    font-family : Impact;
+    font-size : x-large;
+    transform : translate(-480px,-310px);
+    border-radius: 50%;
 }
 .up_left_circle {
     height: 250px;
@@ -58,7 +73,23 @@ body{
     align-items: center;
     background-color:#FFFFFF;
     color:#0000FF;
-    transform : translate(-150px,-260px);
+    transform : translate(-180px,-310px);
+    overflow: hidden;
+}
+.up_right_title {
+    height: 200px;
+    width: 300px;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFFFFF;
+    color:#000000;
+    font-family : Impact;
+    font-size : x-large;
+    transform : translate(480px,-310px);
+    border-radius: 50%;
 }
 .up_right_circle {
     height: 250px;
@@ -71,7 +102,23 @@ body{
     align-items: center;
     background-color:#FFFFFF;
     color:#0000FF;
-    transform : translate(150px,-260px);
+    transform : translate(180px,-310px);
+    overflow: hidden;
+}
+.down_right_title {
+    height: 200px;
+    width: 300px;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFFFFF;
+    color:#000000;
+    font-family : Impact;
+    font-size : x-large;
+    transform : translate(480px,310px);
+    border-radius: 50%;
 }
 .down_right_circle {
     height: 250px;
@@ -84,7 +131,23 @@ body{
     align-items: center;
     background-color:#FFFFFF;
     color:#0000FF;
-    transform : translate(150px,260px);
+    transform : translate(180px,310px);
+    overflow: hidden;
+}
+.down_left_title {
+    height: 200px;
+    width: 300px;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFFFFF;
+    color:#000000;
+    font-family : Impact;
+    font-size : x-large;
+    transform : translate(-480px,310px);
+    border-radius: 50%;
 }
 .down_left_circle {
     height: 250px;
@@ -97,7 +160,24 @@ body{
     align-items: center;
     background-color:#FFFFFF;
     color:#0000FF;
-    transform : translate(-150px,260px);
+    transform : translate(-180px,310px);
+    overflow: hidden;
+}
+.left_title {
+    height: 200px;
+    width: 300px;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFFFFF;
+    color:#000000;
+    font-family : Impact;
+    font-size : x-large;
+    transform : translate(-660px,0px);
+    border-radius: 50%;
+    overflow: hidden;
 }
 .left_circle {
     height: 250px;
@@ -110,7 +190,23 @@ body{
     align-items: center;
     background-color:#FFFFFF;
     color:#0000FF;
-    transform : translate(-300px,0px);
+    transform : translate(-360px,0px);
+    overflow: hidden;
+}
+.right_title {
+    height: 200px;
+    width: 300px;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFFFFF;
+    color:#000000;
+    font-family : Impact;
+    font-size : x-large;
+    transform : translate(660px,0px);
+    border-radius: 50%;
 }
 .right_circle {
     height: 250px;
@@ -123,7 +219,8 @@ body{
     align-items: center;
     background-color:#FFFFFF;
     color:#0000FF;
-    transform : translate(300px,0px);
+    transform : translate(360px,0px);
+    overflow: hidden;
 }
 .outer_circle{
     height: 1200px;
