@@ -18,35 +18,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-.center_title {
-    height: 60px;
-    width: 200px;
-    z-index: 3;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#00FFFF;
-    color:#0000FF;
-    font-family : Impact;
-    font-size : x-large;
-    transform : translate(0px,-180px);
-    border-radius: 50%;
-}
-.center_circle {
-    height: 250px;
-    width: 250px;
-    z-index: 2;
-    border-radius: 50%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#FFFFFF;
-    color:#0000FF;
-    overflow: hidden;
-    
-}
 .up_left_title {
     height: 200px;
     width: 300px;
@@ -57,10 +28,11 @@ body{
     align-items: center;
     background-color:#FFFFFF;
     color:#000000;
-    font-family : Impact;
-    font-size : x-large;
     transform : translate(-480px,-310px);
     border-radius: 50%;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
 }
 .up_left_circle {
     height: 250px;
@@ -86,10 +58,11 @@ body{
     align-items: center;
     background-color:#FFFFFF;
     color:#000000;
-    font-family : Impact;
-    font-size : x-large;
     transform : translate(480px,-310px);
     border-radius: 50%;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
 }
 .up_right_circle {
     height: 250px;
@@ -115,10 +88,11 @@ body{
     align-items: center;
     background-color:#FFFFFF;
     color:#000000;
-    font-family : Impact;
-    font-size : x-large;
     transform : translate(480px,310px);
     border-radius: 50%;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
 }
 .down_right_circle {
     height: 250px;
@@ -144,10 +118,11 @@ body{
     align-items: center;
     background-color:#FFFFFF;
     color:#000000;
-    font-family : Impact;
-    font-size : x-large;
     transform : translate(-480px,310px);
     border-radius: 50%;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
 }
 .down_left_circle {
     height: 250px;
@@ -173,11 +148,12 @@ body{
     align-items: center;
     background-color:#FFFFFF;
     color:#000000;
-    font-family : Impact;
-    font-size : x-large;
     transform : translate(-660px,0px);
     border-radius: 50%;
     overflow: hidden;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
 }
 .left_circle {
     height: 250px;
@@ -203,10 +179,11 @@ body{
     align-items: center;
     background-color:#FFFFFF;
     color:#000000;
-    font-family : Impact;
-    font-size : x-large;
     transform : translate(660px,0px);
     border-radius: 50%;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
 }
 .right_circle {
     height: 250px;
